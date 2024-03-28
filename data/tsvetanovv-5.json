@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "tsvetanovv",
+  "risk": "2",
+  "title": "No slippage protection in `withdraw_dex_share()` function",
+  "issueId": 5,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/5"
+}
