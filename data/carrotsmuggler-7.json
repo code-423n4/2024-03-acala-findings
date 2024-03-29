@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "carrotsmuggler",
+  "risk": "3",
+  "title": "`transfer_share_and_rewards` can be used to transfer out shares without transferring reward debt due to rounding.",
+  "issueId": 7,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/7"
+}
