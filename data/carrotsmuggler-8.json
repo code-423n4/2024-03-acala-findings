@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "carrotsmuggler",
+  "risk": "3",
+  "title": "Early user can break pool via inflation attack due to no minimum liquidity check in the incentive contract",
+  "issueId": 8,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/8"
+}
