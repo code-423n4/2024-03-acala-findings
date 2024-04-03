@@ -310,7 +310,7 @@ The protocol employs the actions of the `UpdateOrigin`. While this admin is esse
 ## **6. Recommendations**
 
 - The `transfer_share_and_rewards` function in the rewards library doesn't prevent users from transferring to themselves. An analysis of the function shows that users can potentially increase their shares and rewards by doing just that. This is something to look into, even though the function cannot be accessed from outside, it can still have an effect in cases of integrations.
-- The functions to add and remove liquidity to the pools lack a protection from slippage and which can lead to loss of funds for users as they'd receive less tokens than they expect.
+- The functions to add and remove liquidity to the pools lack a protection from slippage and which can lead to loss of funds for users as they'd receive less reward than they expect.
 - A minimum deposit amount can be enforced to protect from the possibilty of a first depositor bug, or from the reward calculation being forcefully scaled up by malicious users or from bloating the storage runtime with spam.
 - A proper pause function can be implemented to protect users in cases of turbulent market situations and black swan events. It also helps prevent malicious activities or bugs from causing significant damage while the team investigates the potential issues without affecting users' funds.
 - A deadline parameter can also be included to prevent transactions from being executed at an unfavorable time due to network congestion or other factors that could affect the outcome of the trade. By setting a deadline, users specify until what time they are willing to have their transaction included in the blockchain.
@@ -327,6 +327,8 @@ The protocol employs the actions of the `UpdateOrigin`. While this admin is esse
 - [Previous audits](https://github.com/AcalaNetwork/Acala/tree/master/audit)
 - [Karura scan](https://karura.subscan.io/)
 - [Acala scan](https://acala.subscan.io/)
+
+
 
 ### Time spent:
 36 hours
