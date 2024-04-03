@@ -128,7 +128,7 @@ payout_reward_and_reaccumulate_reward
 ***
 ### **3.2. Earning pallet**
 
-- This contract provides a way for users to stake their tokens for a period of time. Users can also unlock these tokens, while waiting for a particular cooldown period. If they aren't interested in waiting, they can unlock instantly for a fee. While the cooldown period is ongoing, users can decide to restake their tokens.
+- This contract provides a way for users to stake the protocol's native tokens for a period of time. Users can also unlock these tokens, while waiting for a particular cooldown period. If they aren't interested in waiting, they can unlock instantly for a fee. While the cooldown period is ongoing, users can decide to restake their tokens.
 
 *Tokens bonding/unbonding process* - A user calls the `bond` function to lock the tokens in the protocol. To unlock the tokens, he either calls the `unbond_instant` to unlock the tokens for a fee, or `unbond` to wait for the stipulated time period. While waiting, the user can call `rebond` function to relock the unlocked tokens. Finally, upon the passage of the unlocking period, the user can call `withdraw_unbonded` to completely withdraw their tokens.
 
@@ -329,4 +329,4 @@ The protocol employs the actions of the `UpdateOrigin`. While this admin is esse
 - [Acala scan](https://acala.subscan.io/)
 
 ### Time spent:
-036 hours
+36 hours
