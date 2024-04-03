@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "ZanyBonzy",
+  "risk": "2",
+  "title": "User can frontrun calls to `set_share` function to gain more shares.",
+  "issueId": 23,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/23"
+}
