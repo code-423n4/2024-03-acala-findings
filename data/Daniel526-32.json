@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "Daniel526",
+  "risk": "2",
+  "title": "Lack of Proper State Update Before External Calls",
+  "issueId": 32,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/32"
+}
