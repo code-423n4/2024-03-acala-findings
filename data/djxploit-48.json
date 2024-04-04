@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "djxploit",
+  "risk": "3",
+  "title": "Users can claim more than his accrued reward, by calling the functions in a specific order",
+  "issueId": 48,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/48"
+}
