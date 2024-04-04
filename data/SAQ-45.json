@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "SAQ",
+  "risk": "2",
+  "title": "Inconsistent Reward Claim Amount Calculation in `claim_rewards`  and  `claim_reward` Functions",
+  "issueId": 45,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/45"
+}
