@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "Daniel526",
+  "risk": "2",
+  "title": "Lack of Validation in Deposit Function Allows Manipulation of Share Balances",
+  "issueId": 30,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/30"
+}
