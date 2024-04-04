@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "djxploit",
+  "risk": "3",
+  "title": "An attacker user can frontrun and stake a large amount of LP tokens before AccumulatePeriod, to claim the majority share of the reward pool",
+  "issueId": 47,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/47"
+}
