@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "air_0x",
+  "risk": "3",
+  "title": "Unbond_instant function reverts if amount to be instantly unbonded is close to  the total bonded amount",
+  "issueId": 29,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/29"
+}
