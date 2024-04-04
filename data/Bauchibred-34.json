@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "Protocol could lose funds currently in early `unbond_instant()` executions",
+  "issueId": 34,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/34"
+}
