@@ -291,8 +291,6 @@ Accordingly, I analyzed and audited the subject in the following steps;
 
     - **Comparison Mode**: Compare the implementation of each function with established standards or existing implementations, focusing on the function names to identify any deviations.
 
-## Architecture
-
 ## Codebase Quality
 
 Overall, I consider the quality of the `Acala Network` protocol codebase to be Good. The code appears to be mature and well-developed. We have noticed the implementation of various standards adhere to appropriately. Details are explained below:
@@ -604,6 +602,8 @@ Overall, I consider the quality of the `Acala Network` protocol codebase to be G
 - Find a way to gain more shares than you should
 
 - Find a way to claim more rewards than you should
+
+
 
 
 ### Time spent:
