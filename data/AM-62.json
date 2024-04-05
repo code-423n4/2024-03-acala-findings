@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "AM",
+  "risk": "3",
+  "title": "OOM ( Out-Of-Memory ) bug possible because of structure that can grow really cheap and without restrictions",
+  "issueId": 62,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/62"
+}
