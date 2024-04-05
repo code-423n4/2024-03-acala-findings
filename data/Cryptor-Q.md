@@ -77,5 +77,12 @@ https://github.com/code-423n4/2024-03-acala/blob/9c71c05cf2d9f0a2603984c50f76fc8
 Deposit Event is used for events that have nothing to do with depositing funds which can be confusing 
 
 
+## [L13] do_deposit_dex_share does not check if a user has the required amount of capital to deposit 
 
+https://github.com/code-423n4/2024-03-acala/blob/28c60b339bc011d59fa05fda8276c8e70a7f5779/src/modules/incentives/src/lib.rs#L510-L523
 
+The function allows a user to to deposit funds to receive shares. However, there is no check whether a user has the required capital to make the deposit. This is shown here 
+
+https://github.com/code-423n4/2024-03-acala/blob/28c60b339bc011d59fa05fda8276c8e70a7f5779/src/modules/incentives/src/lib.rs#L514
+
+ Without this check a user could potentially gain shares that they did not deserve. For example, a user can make a deposit of 1000 token to receive shares, when they only have 10 tokens, but since the function does not check whether a user has the required funds, the function will grant the user extra shares that was not deserved.
