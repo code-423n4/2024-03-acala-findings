@@ -11,5 +11,5 @@ In the `Incentives` module, the `do_withdraw_dex_share()` function transfers fun
 ```
 This approach contradicts the CEI pattern and may potentially lead to reentrancy attacks.
 
-## Mitigation
+## Recommended Mitigation Steps
 To address this issue, it is recommended to apply the CEI pattern correctly. First, remove the user's shares, then transfer the assets.
