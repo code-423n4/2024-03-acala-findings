@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "XDZIBECX",
+  "risk": "2",
+  "title": "Unexpected Final Unbond Amount Due to Direct Fee Deduction in unbond_instant",
+  "issueId": 52,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/52"
+}
