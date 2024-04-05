@@ -313,7 +313,7 @@ State mutation and storage reset:
 - After processing all pending rewards, the function then keeps only non-zero value items in the `PendingMultiRewards` storage.
 - If `pending_multi_rewards` is empty indicating that all rewards have been claimed, the storage entry is then cleared.
 
-## **5. Reward Deduction Rates**
+### **5. Reward Deduction Rates**
 
 ```rs
 pub fn update_claim_reward_deduction_rates(
@@ -356,7 +356,7 @@ pub fn update_claim_reward_deduction_rates(
 - Keep in mind that if the `rate` attempted to be set is the same as the current `rate`, we skip doing the update as it's pointless in that case to set an already set state.
 - If the deduction `rate` becomes zero after the update, the corresponding entry in the `ClaimRewardDeductionRates` storage is then removed to conserve storage space
 
-## **5. Call-trace Diagrams
+## **5. Call-trace Diagrams**
 Entry point for staking:
 ![Entry](https://rexjoseph.github.io/images/acala_deposit.png)
 
