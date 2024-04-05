@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "foxb868",
+  "risk": "2",
+  "title": "Unauthorized access allows manipulation of critical token operations, risking economic stability.",
+  "issueId": 80,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/80"
+}
