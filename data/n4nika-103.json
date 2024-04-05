@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "n4nika",
+  "risk": "2",
+  "title": "Claiming rewards while the deduction rate is != 0, allows for repeated withdrawal of redistributed rewards",
+  "issueId": 103,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/103"
+}
