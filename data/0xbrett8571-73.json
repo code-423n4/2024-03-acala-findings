@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "Unauthorized pools receive rewards, causing misallocation and manipulation of records.",
+  "issueId": 73,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/73"
+}
