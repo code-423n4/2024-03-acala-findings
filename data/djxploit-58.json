@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "djxploit",
+  "risk": "2",
+  "title": "Static fee charged despite dynamic storage (Bad extrinsic weight)",
+  "issueId": 58,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/58"
+}
