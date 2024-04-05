@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "Myd",
+  "risk": "2",
+  "title": "When initial_total_shares is zero, the checked_div operation will attempt to divide by zero, resulting in a panic.",
+  "issueId": 83,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/83"
+}
