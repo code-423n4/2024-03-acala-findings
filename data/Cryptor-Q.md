@@ -50,7 +50,7 @@ https://github.com/code-423n4/2024-03-acala/blob/9c71c05cf2d9f0a2603984c50f76fc8
 
 
 
-## [L09] Available balance can be misleading due to not counting min deposit 
+## [L09] Available balance can be misleading due to not counting min existential deposit 
 
 https://github.com/code-423n4/2024-03-acala/blob/9c71c05cf2d9f0a2603984c50f76fc8a315d4d65/src/modules/earning/src/lib.rs#L259-L262
 
@@ -65,9 +65,20 @@ https://github.com/code-423n4/2024-03-acala/blob/9c71c05cf2d9f0a2603984c50f76fc8
 
 
 
-## [L11] function Claim_reward is not used anywhere 
+## [L11] function Claim_reward is not used anywhere in the codebase
 
 https://github.com/code-423n4/2024-03-acala/blob/9c71c05cf2d9f0a2603984c50f76fc8a315d4d65/src/orml/rewards/src/lib.rs#L293-L317
+
+
+## [L12] DepositEvent naming convention is confusing 
+
+https://github.com/code-423n4/2024-03-acala/blob/9c71c05cf2d9f0a2603984c50f76fc8a315d4d65/src/modules/incentives/src/lib.rs#L535
+
+Deposit Event is used for events that have nothing to do with depositing funds which can be confusing 
+
+
+
+
 
 
 
