@@ -1,0 +1,8 @@
+{
+  "contest": 323,
+  "handle": "yashar",
+  "risk": "3",
+  "title": "The asset balance of the IncentivesModule can drop below the existential deposit",
+  "issueId": 95,
+  "issueUrl": "https://github.com/code-423n4/2024-03-acala-findings/issues/95"
+}
