@@ -59,11 +59,15 @@ https://github.com/code-423n4/2024-03-acala/blob/9c71c05cf2d9f0a2603984c50f76fc8
 
 ## [L10] OnloanUpdate can break accounting between bonded tokens and shares
 
+If the earning module is hooked into OnloanUpdate, then it would break the invariant of having the total bonded token match the total amount of shares
+
 https://github.com/code-423n4/2024-03-acala/blob/9c71c05cf2d9f0a2603984c50f76fc8a315d4d65/src/modules/incentives/src/lib.rs#L576-L588
 
 
 
-[L10] Incentive Program should allow users to unbond immediately after it ends 
+## [L11] function Claim_reward is not used anywhere 
+
+https://github.com/code-423n4/2024-03-acala/blob/9c71c05cf2d9f0a2603984c50f76fc8a315d4d65/src/orml/rewards/src/lib.rs#L293-L317
 
 
 
